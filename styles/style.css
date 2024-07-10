@@ -231,6 +231,8 @@ section{
     /* background-image: url("/assets/handshake.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #074df0;
+    opacity: 0.8;
     background-position: center center;
     padding: 50px 100px;
     border-radius: 16px;
@@ -264,6 +266,11 @@ section{
     font-weight: 600;
     font-size: 18px;
     width: 20%;
+    margin-left: 10px;
+}
+.submit-btn:hover{
+    background-color: #fff;
+    color: #0D1321;
 }
 /* Support Section Design */
 /* Footer Section Design */
