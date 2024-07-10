@@ -51,11 +51,25 @@ h1, h2, h3, h4, h5, h6{
     color: #0D1321;
 }
 
-
-
+.title{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.description{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    width: 70%;
+    margin: 20px auto 50px auto;
+    
+}
 main{
     width: 90%;
     margin: 0 auto;
+}
+section{
+    margin: 70px 0;
 }
 /* Navbar Style Start */
 .navbar{
@@ -110,21 +124,91 @@ main{
     width: 60%;
 }
 .post-contant > h2{
-    width: 70%;
-    font-size: 24px;
+    width: 80%;
+    font-size: 28px;
     font-weight: 700;
 }
 .post-contant > p{
+    width: 90%;
     color: #0D1321;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 20px;
+    
 }
 
 .post-images{
     width: 40%;
 }
+.web-post-1 > .post-images{
+    text-align: right;
+}
+.web-post-3 > .post-images{
+    text-align: right;
+}
 /* Why Web Devlopment Section */
 
+/* Inspration Section Style */
 
+.youtube-video{
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(13, 19, 33, 0.20);
+}
+/* Inspration Section Style */
+
+/* Currect Target Section Style */
+.target-container{
+    display: flex;
+    gap: 30px;
+}
+.target-content{
+    padding: 50px 30px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.target-content > h2{
+    font-size: 26px;
+    margin-top: 16px;
+
+}
+.target-content > p{
+    font-size: 20px;
+    margin: 16px 0px;
+}
+.target-content > a{
+    font-size: 16px;
+    color: #0D1321;
+    font-weight: 600;
+
+}
+.target-content > a:hover{
+    color: #01b22e;
+}
+.css{
+    background: rgba(0, 76, 232, 0.05);
+}
+.javascript{
+    background: rgba(255, 223, 0, 0.05);
+}
+/* Currect Target Section Style */
+
+/* next-target-posts Section Style */
+.next-target-posts{
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    padding: 40px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.next-target-contant > a{
+    color: #0D1321;
+    font-weight: 600;
+}
+.next-target-contant > p{
+    font-size: 18px;
+    padding: 10px 0;
+    text-align: justify;
+}
+/* next-target-posts Section Style */
 
 /* Vanila CSS End */
