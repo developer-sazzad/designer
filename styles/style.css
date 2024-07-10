@@ -72,14 +72,28 @@ section{
     margin: 70px 0;
 }
 /* Navbar Style Start */
+.logo{
+    cursor: pointer;
+    font-size: 30px;
+    color: #01b22e;
+    font-weight: 600;
+
+}
+.logo > span{
+    color: #0D1321;
+    font-weight: 900;
+}
+.logo:hover span{
+    color: red;
+}
+
 .navbar{
     width: 90%;
     margin: 0 auto;
-    padding: 20px 0px;
+    padding: 30px 0px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-
+    align-items: center;    
 }
 .hero-bannar{
     text-align: center;
