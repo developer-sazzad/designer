@@ -211,4 +211,69 @@ section{
 }
 /* next-target-posts Section Style */
 
+/* Support Section Design */
+.support{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("/assets/handshake.jpg") lightgray 50% / cover no-repeat;
+    /* background-image: url("/assets/handshake.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 100px;
+    border-radius: 16px;
+    text-align: center;
+}
+.support > h2{
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.support > p{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 20px 0;
+}
+.feedback-input{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 40%;
+}
+.submit-btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #01b22e;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    width: 20%;
+}
+/* Support Section Design */
+/* Footer Section Design */
+footer{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 50px 0px;
+    margin: 0;
+}
+.footer-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright{
+    font-size: 18px;
+
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+/* Footer Section Design */
 /* Vanila CSS End */
