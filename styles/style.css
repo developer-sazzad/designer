@@ -8,6 +8,7 @@
     padding: 0;
     margin: 0;
     font-family: "Open Sans", sans-serif;
+    scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -97,7 +98,7 @@ section{
 }
 .hero-bannar{
     text-align: center;
-    background-image: url("/assets/Hero-bg.png");
+    background-image: url("./assets/Hero-bg.png");
     background-size: cover;
     padding: 50px 0;
 }
@@ -234,7 +235,7 @@ section{
     background-color: #074df0;
     opacity: 0.8;
     background-position: center center;
-    padding: 50px 100px;
+    padding: 70px 100px 100px 100px;
     border-radius: 16px;
     text-align: center;
 }
@@ -247,7 +248,7 @@ section{
     font-size: 18px;
     color: #ffffff;
     font-weight: 500;
-    padding: 20px 0;
+    padding: 20px 0px 50px 0px;
 }
 .feedback-input{
     padding: 10px 15px;
@@ -255,6 +256,14 @@ section{
     border-radius: 5px;
     font-size: 18px;
     width: 40%;
+    border: 2px solid #fff;
+}
+.feedback-input::placeholder{
+    font-size: 16px;
+}
+.feedback-input:focus{
+    outline: none;
+    border: 2px solid #01b22e;
 }
 .submit-btn{
     padding: 10px 20px;
